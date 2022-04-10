@@ -1,0 +1,41 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-bottom: 4px solid whitesmoke;
+}
+
+.Contacts {
+  transform: translateY(100%);
+}
+
+.Logo {
+  height: 42px;
+  width: 68px;
+  border-radius: 60%;
+}
+
+.Nav_button {
+  display: flex;
+  gap: 20px;
+}
+.Nav_button > * {
+  display: flex;
+  border: none;
+  background-color: white;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.button_home:active {
+  transform: translateY(-5.4%);
+}
+.button_home:hover {
+  color: rgb(9, 165, 74);
+}
+.button_home {
+  color: #3d1e93;
+  text-decoration: none;
+}

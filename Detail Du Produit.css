@@ -1,0 +1,95 @@
+/*      TAG SELECTOR     */
+ul {
+  padding: 5px 10px 10px 20px;
+}
+input {
+  margin-left: 5px;
+  margin-right: 45px;
+  width: 90px;
+}
+
+body {
+  margin: 0;
+}
+/* ID SELECTOR */
+
+/*         CLASS SELECTOR          */
+.Container {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  background-color: #f6ecff;
+}
+.Box_left {
+  width: 40%;
+}
+.IMG_Product {
+  width: 100%;
+}
+.Input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: translateX(-5.4%);
+  height: 35px;
+}
+.QuantityLabel {
+  margin: auto 0 auto 0;
+}
+.button_submit {
+  display: flex;
+  justify-content: space-evenly;
+  width: 160px;
+  font-size: 18px;
+  border: 2px solid #dcc5f6;
+  border-radius: 80px;
+  background-color: rgb(0, 255, 115);
+}
+.button_submit:hover {
+  opacity: 90%;
+  background-color: rgb(223, 219, 24);
+  cursor: pointer;
+}
+.button_submit:active {
+  transform: translateY(-5.4%);
+}
+.icon_add {
+  height: 70%;
+  transform: translateY(20%);
+}
+.Button_submit_innerText {
+  margin: 0;
+  width: fit-content;
+  transform: translateY(2px);
+}
+
+.Box_right {
+  display: flex;
+  width: 30%;
+  background-color: #c480fb;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 35px;
+}
+.TBL1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcc5f6;
+  height: 100px;
+  align-items: center;
+}
+.column_2_table {
+  color: white;
+}
+
+.Table {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcc5f6;
+  height: 40px;
+  align-items: center;
+}

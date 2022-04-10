@@ -1,0 +1,155 @@
+/*                TAG SELECTOR */
+
+table {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+/*     CLASS SELECTOR      */
+
+.Contaier {
+  display: flex;
+}
+
+.Box_left {
+  width: 45%;
+  background-color: #7826d5;
+  color: white;
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 60px;
+  margin-top: 24px;
+}
+
+.InfoProduct {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  gap: 20px;
+}
+
+.Img {
+  height: 100px;
+  width: 100px;
+}
+
+.nameProd {
+  transform: translateY(9px);
+}
+
+.href {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 35px;
+  width: fit-content;
+}
+.href:active {
+  transform: translateY(-5.4%);
+}
+.href:hover {
+  color: rgb(0, 255, 115);
+  font-size: 25px;
+}
+
+.angle_left {
+  height: 20px;
+}
+
+.Box_right {
+  width: 100%;
+  padding: 30px;
+  background-color: #c480fb;
+  color: white;
+}
+
+.TBL1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcc5f6;
+  height: 100px;
+  align-items: center;
+}
+.Table {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcc5f6;
+  height: 126px;
+  align-items: center;
+}
+
+.delete {
+  height: 35px;
+  width: 30px;
+  background-color: #7a27db;
+}
+
+.button_delete {
+  width: 30;
+  height: 35px;
+  border: none;
+  padding: 0;
+  background-color: #c480fb;
+  cursor: pointer;
+}
+
+.button_delete:active {
+  transform: translateY(-5.4%);
+}
+
+.img_delete {
+  width: 30;
+  height: 35px;
+  border: none;
+  padding: 0;
+  /* background-color: #7a27db; */
+  cursor: pointer;
+}
+.img_delete:hover {
+  border-radius: 30%;
+  opacity: 100%;
+  background-color: #7a27db;
+  /*rgb(239 159 175) */
+}
+
+.Box_To_right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 auto;
+  width: 75%;
+  margin-top: 30px;
+}
+
+.Payment_list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* gap: 400px; */
+  margin-top: 30px;
+}
+.Payment_list:nth-child(1),
+.Payment_list:nth-child(2) {
+  border-bottom: 2px solid #dcc5f6;
+  padding-bottom: 5px;
+}
+.Button_buy {
+  margin-top: 15px;
+  height: 45px;
+  background-color: #7a27db;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Button_buy:hover {
+  transform: scale(1.05, 1.03);
+  color: rgb(0, 255, 115);
+}
+.Button_buy:active {
+  transform: translateY(-5.4%);
+}

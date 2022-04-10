@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: #ffffff;
+}
+
+ul {
+  padding: 5px 10px 10px 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  color: #019267;
+  /*color: rgb(180, 43, 43); */
+}
+li {
+  margin-bottom: 5px;
+}
